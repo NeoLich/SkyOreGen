@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "skyoregen:basbook"
+            }
+        }
+    },
+    "rewards": {
+        "function": "skyoregen:b_frame/craft_book"
+    }
+}

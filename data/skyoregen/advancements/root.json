@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": ["",{"text":"Sky ","color":"aqua"},{"text":"Ore","color":"green"},{"text":"Gen","color":"gold"}],
+        "description": ["",{"text":"Data Pack by ","color":"green"},{"text":"NeoLich","color":"red"}],
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/iron_bars.png"
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards":{
+      "function": "skyoregen:welcome"
+    }
+}

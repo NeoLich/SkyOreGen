@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": {
+      "text": "Plain Cobble             "
+    },
+    "description": {
+      "text": "Have you ever thought that just cobble was boring? Have you ever wanted more? If so, summon Greg, make a generator, and upgrade.",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "cobble_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cobble_stone"
+    ]
+  ],
+  "rewards": {
+    "function": "skyoregen:c_frame/gettingstarted"
+  },
+  "parent": "skyoregen:root"
+}

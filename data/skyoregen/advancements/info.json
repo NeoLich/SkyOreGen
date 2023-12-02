@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {
+            "text": "Info                ",
+            "color": "white"
+        },
+        "description": ["",{"text":"Pack replaces coblestone and basalt from generators with random ores and blocks based on tiers ","color":"green"}],
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "skyoregen:root"
+}

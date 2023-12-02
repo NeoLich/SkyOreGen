@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 84
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:white_dye",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{summon_quartz:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:white_dye",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{summon_gold:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:white_dye",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{summon_debris:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

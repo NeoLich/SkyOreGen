@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:basalt"
+    },
+    "title": {
+      "text": "Basalt Time        "
+    },
+    "description": {
+      "text": "Did you know you can upgrade basalt generators as well? Summon Ned and get going.",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "rewards": {
+    "function": "skyoregen:b_frame/gettingstarted"
+  },
+  "parent": "skyoregen:cobble"
+}
