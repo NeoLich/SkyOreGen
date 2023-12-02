@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Basalt Generator Frame","color":"light_purple"}',Lore:['{"text":"Detects basalt generators within 4 blocks","color":"white"}']},EntityTag:{Tags:["b_generator_frame"]}} 1

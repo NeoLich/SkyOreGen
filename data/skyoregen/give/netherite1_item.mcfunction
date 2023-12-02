@@ -1,0 +1,1 @@
+give @s netherite_ingot{display:{Name:'{"text":"Netherite 1 Generator","color":"gray"}',Lore:['{"text":"Basalt 65% Quartz 15% Gold 15% Ancient Debris 5%","color":"white"}']},netherite1_generator:1b} 1

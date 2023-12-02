@@ -1,0 +1,1 @@
+give @s gold_ingot{display:{Name:'{"text":"Gold 1 Generator","color":"gold"}',Lore:['{"text":"Cobblestone 60% Iron 20% Copper 5%","color":"white"}','{"text":"Gold 15%","color":"white"}']},gold1_generator:1b} 1
