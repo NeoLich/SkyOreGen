@@ -1,1 +1,0 @@
-give @s redstone{display:{Name:'{"text":"Redstone 1 Generator","color":"red"}',Lore:['{"text":"Cobblestone 40% Iron 20% Copper 5%","color":"white"}','{"text":"Gold 15% Redstone 10% Lapis 10%","color":"white"}']},redstone1_generator:1b} 1

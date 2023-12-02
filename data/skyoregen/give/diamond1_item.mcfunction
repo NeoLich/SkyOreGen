@@ -1,1 +1,0 @@
-give @s diamond{display:{Name:'{"text":"Diamond 1 Generator","color":"aqua"}',Lore:['{"text":"Cobblestone 35% Iron 20% Copper 5%","color":"white"}','{"text":"Gold 15% Redstone 10% Lapis 10% Diamond 5%","color":"white"}']},diamond1_generator:1b} 1

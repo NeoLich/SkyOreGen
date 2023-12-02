@@ -1,1 +1,0 @@
-give @s item_frame{display:{Name:'{"text":"Cobblestone Generator Frame","color":"light_purple"}',Lore:['{"text":"Detects cobblestone generators within 4 blocks","color":"white"}']},EntityTag:{Tags:["c_generator_frame"]}} 1
